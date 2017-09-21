@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header {
+  width: auto;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  /*border: 1px solid black;*/
+}
+
+
+.search {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.search > img {
+  /*margin: 9px 12px;*/
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+.nav {
+  align-items: center;
+  display: flex;
+  /*justify-content: space-around;
+  width: 40%;*/
+  /*border: 1px solid green;*/
+}
+.nav >a {
+  margin-right: 48px;
+  /*font-size: 20px;*/
+  color: white;
+  text-decoration: none;
+}
