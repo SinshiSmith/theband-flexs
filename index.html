@@ -6,7 +6,6 @@
   <title>The Playing Zone</title>
   <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="style.css">
-  <script src='script.js' type="text/javascript"></script>
 </head>
 
 <body>
@@ -15,8 +14,15 @@
       <a href="#" style="margin-left : 10px">HOME</a>
       <a href="#band">BAND</a>
       <a href="#tour">TOUR</a>
-      <a href="#contact">CONTACT</a>
-      <a href="#" style="margin-right : 0">MORE</a>
+      <a href="#contact" style="margin-right : 20px;">CONTACT</a>
+      <div class="dropdown">
+        <button class="btn btn2" >MORE</button>
+        <div class="dropdown-content">
+          <a href="#">Merchandise</a>
+          <a href="#">Extras</a>
+          <a href="#">Media</a>
+        </div>
+      </div>
     </div>
     <div class="search">
       <img src="search.svg" alt="">
@@ -32,7 +38,7 @@
         </p>
       </div>
     </div>
-    <!-- <div class="slides">
+    <div class="slides">
         <img src="la.jpg">
         <div class="slide-discribe">
           <h3>Los Angeles</h3>
@@ -47,7 +53,7 @@
           <h3>New York</h3>
           <p>The atmosphere in New York is lorem ipsum.</p>
         </div>
-      </div> -->
+      </div>
     <div id="band" class="the-band">
       <h2>THE BAND</h2>
       <p><i>We love music</i></p>
@@ -133,10 +139,46 @@
     <div id="contact">
       <h2>CONTACT</h2>
       <p><i>Fan? Drop a note!</i></p>
+      <div class="contact-data">
+        <div class="contact-ways">
+          <img src="pin.svg" class="icon">
+          <!-- <p>Chicago, US</p> -->
+          Chicago, US
+          <br>
+          <img src="phone.svg" class="icon">
+          <!-- <p>Phone: +00 151515</p> -->
+          Phone: +00 151515
+          <br>
+          <img src="mail.svg" class="icon">
+          <!-- <p>Email: mail@mail.com</p> -->
+          Email: mail@mail.com
+          <br>
+        </div>
+        <div class="contact-info">
+          <form class="contact-form" action="index.html" method="post">
+          <div class="holder">
+
+
+            <div class="half">
+              <input type="text" name="name" placeholder="Name">
+            </div>
+
+            <div class="half">
+              <input type="text" name="email" placeholder="Email">
+            </div>
+          </div>
+
+            <input type="text" name="massage" placeholder="Massage" class="inputer">
+            <button type="button" name="Send" class="btn btn2">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="map">
     </div>
   </div>
-
-
+  <footer></footer>
+  <script src='script.js' type="text/javascript"></script>
 </body>
 
 </html>
